@@ -1,42 +1,56 @@
 body {
-    background: rgb(168, 166, 166);
-    margin: 0;
-    padding: 10;
-    padding-bottom: 10px;
+    background-color: black;
 }
 
-div {
-    box-sizing: border-box;
-    padding-top: 10px;
-    margin: auto;
+.post {
+    display: block;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 650px;
+
 }
 
-header {
-    background: white;
-    padding: 10px;
-}
-header h1 {
-    margin: 0;
-    text-align: center;
+.post-header {
+    overflow: hidden;
+    max-height: 100px;
 }
 
-div.post {
-    background: white;
-    text-align: center;
-    width: 80%;
-    padding: 5px;
-    margin: auto;
-    
+.post-text {
+    margin: 10px;
 }
 
-.izquierda{
-    text-align: left;
+.fas {
+    float: right;
+}
+.fa-html5 {
+     size: 30px;
+     float: left;
 }
 
-.derecha{
-    text-align: right;
+.icons{
+    float: left;
+    width: 19%;
+    margin: 10px;
 }
 
-div.post img{
-    width: 100%;
+.html {
+    float: right;
+    padding: 0%;
+    margin: 0px;
+}
+.name {
+    float: right;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.fa-ellipsis-v{
+    margin: 10px;
+}
+
+.fa-bookmark {
+    float: right;
 }
